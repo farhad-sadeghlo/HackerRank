@@ -1,10 +1,12 @@
-# import phonebook
-# import factorial
-# import Binary_numbers
-import Day11_2D_Arrays
+# from phonebook import phonebook
+# from factorial import factorial
+# from Binary_numbers import Binary_num
+# from Day11_2D_Arrays import HourGlass
+from compare_triplets import compareTriplets
 
 if __name__ == "__main__":
-    # phonebook.phonebook(input('Please type how many phonebook entries you have: ')).num_retriever()
-    # factorial.factorial(input('Please type in your desired number to calculate its factorial: ')).factorial_of_num()
-    # Binary_numbers.Binary_num(input('please type in your number: ')).Binary_maker()
-    Day11_2D_Arrays.HourGlass().hourglass_function()
+    # phonebook(input('Please type how many phonebook entries you have: ')).num_retriever()
+    # factorial(input('Please type in your desired number to calculate its factorial: ')).factorial_of_num()
+    # Binary_num(input('please type in your number: ')).Binary_maker()
+    # Day11_2D_Arrays.HourGlass().hourglass_function()
+    compareTriplets(input('please input your first list of nums: '), input('please input your second list of nums: ')).compareTriplets()
