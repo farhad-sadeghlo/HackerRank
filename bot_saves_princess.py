@@ -1,8 +1,6 @@
 """ This app provides the path to find the princess.
-The input data should be in the format of
-
-It works for any grid size of n*m, just provide the number of rows n
-and be consistent with providing equal number of characters m (your columns) in each row
+The input data can be in any matrix format n*m. Just provide the number of rows n,
+and be consistent with providing equal number of characters m (your columns) in each row.
 
 ---p
 ----
@@ -17,21 +15,20 @@ Go RIGHT Go RIGHT
 
 Other examples:
 
-3*6
------p
-------
--b----
+7*4
+-b---
+-----
+-----
+-----
+-----
+-----
+---p-
 
-or 4*10
---------b-
-----------
-----------
---p-------
-
-or 8*3
-------p-
---------
---b-----
+or *23
+---------------------p-
+-----------------------
+-----------------------
+--b--------------------
 
 or whatever you like"""
 
