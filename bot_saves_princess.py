@@ -1,19 +1,44 @@
 """ This app provides the path to find the princess.
 The input data should be in the format of
---p
--b-
----
+
+It works for any grid size of n*m, just provide the number of rows n
+and be consistent with providing equal number of characters m (your columns) in each row
+
+---p
+----
+-b--
+----
+
 (b stands for bot, and p stands for princess)
 and the result for this specific case would be
-Go UP
-Go RIGHT.
 
-It works for any square size of grid 2*2, 3*3, 4*4, 5*5, ... """
+Go UP Go UP
+Go RIGHT Go RIGHT
+
+Other examples:
+
+3*6
+-----p
+------
+-b----
+
+or 4*10
+--------b-
+----------
+----------
+--p-------
+
+or 8*3
+------p-
+--------
+--b-----
+
+or whatever you like"""
 
 class findingprincess:
     def __init__(self, size):
         self.size = int(size)
-        self.grid = [input(f'please type in your row number {i+1}: ') for i in range(self.size)]
+        self.grid = [input(f'please provide contents of your row number {i+1}: ') for i in range(self.size)]
     def display_path_to_princess(self):
 
         row_count = 0

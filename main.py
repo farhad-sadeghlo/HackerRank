@@ -17,4 +17,4 @@ if __name__ == "__main__":
     # Designer_PDF_Viewer(input('please input your word: ')).designerPdfViewer()
     # leftRotation(input('please input your criteria: '), input('please input your list of numbers: ')).leftRotate()
     # reverseArray(input('please input your count of numbers: '), input('please input your list of numbers: ')).reverseArray()
-    findingprincess(input('please type in your odd number of size of square grid: ')).display_path_to_princess()
+    findingprincess(input('please type in your number of rows for the grid: ')).display_path_to_princess()
